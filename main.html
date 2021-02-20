@@ -13,14 +13,33 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-md">
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-dark">
+        <!--Using an icon from fontawesome-->
+        <a href="#" class="navbar-brand"><i class="fas fa-child text-warning fa-2x"></i></a>
+        <!--Defining the navigation bar items-->
         <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <!--Home-->
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3"
+                                    href="#">Home</a></li>
+            <!--Skills-->
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3"
+                                    href="#">Skills</a></li>
+            <!--Projects-->
+            <li class="nav-item dropdown" data-toggle="dropdown"><a class="nav-link text-light text-uppercase
+            font-weight-bold px-3 dropdown-toggle" href="#">Projects</a>
+                <!--Projects menu-->
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Project 1</a>
+                    <a class="dropdown-item" href="#">Project 2</a>
+                    <a class="dropdown-item" href="#">Project 3</a>
+                    <a class="dropdown-item" href="#">Project 4</a>
+                </div>
+            </li>
+            <!--Team-->
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Team</a></li>
+            <!--Contact-->
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Contact</a></li>
         </ul>
     </nav>
 
